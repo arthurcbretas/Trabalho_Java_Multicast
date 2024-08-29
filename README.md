@@ -56,7 +56,7 @@ Este projeto é uma aplicação de chat em Java que utiliza comunicação multic
    Exemplo:
 
    ```bash
-   java ChatApp Carlos 230.0.0.1
+   java ChatApp "Carlos" 230.0.0.1
    ```
 
    Isso fará com que o usuário "Carlos" entre na Sala 1 com o endereço multicast `230.0.0.1`.
@@ -87,6 +87,4 @@ Se você encontrar algum problema:
 - Certifique-se de que sua interface de rede está ativa e sem problemas de conectividade.
 - Certifique-se de que a aplicação está tratando corretamente exceções de rede e I/O, especialmente ao ingressar/sair de grupos multicast.
 
-## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
